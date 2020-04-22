@@ -29,7 +29,7 @@ public class Quran extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recycler);
         linearLayout = (LinearLayout) findViewById(R.id.linear_layout);
         quraan_list = new ArrayList<>();
-        dataBase =  new DataBase(this);
+        dataBase =  new DataBase(Quran.this);
         QuraanDataBase first = new QuraanDataBase( " سورة عم ",R.drawable.boy);
         quraan_list = dataBase.getallsor ;
        AnimationDrawable animationDrawable = (AnimationDrawable) linearLayout.getBackground();
