@@ -59,6 +59,7 @@ public class Quran extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
 
     }
+    int i ;
 
 
 }
